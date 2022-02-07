@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: cucmber.options.TestRun1
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.159 sec <<< FAILURE!
+validate add placeApi(Validate Place API`s)  Time elapsed: 0.122 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'I Add place payload' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I Add place payload")
+public void i_add_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls\"AddApiPlace\" with post https")
+public void user_calls_add_api_place_with_post_https() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Api call is succesful with status code {int}")
+public void api_call_is_succesful_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} in response body is {string}")
+public void in_response_body_is(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} inn response body is\" App\"")
+public void inn_response_body_is_app(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify DeletePlace is working(Validate Place API`s)  Time elapsed: 0.014 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'deletPlace Payload' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("deletPlace Payload")
+public void delet_place_payload() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user calls\"deleteApiPlace\" with post https")
+public void user_calls_delete_api_place_with_post_https() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the  Api call is succesful with status code {int}")
+public void the_api_call_is_succesful_with_status_code(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} in response body is {string}")
+public void in_response_body_is(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
